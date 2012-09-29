@@ -1,0 +1,5 @@
+D:\WorkPlace\Csharp\Random\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\Random\obj\Debug\Random.Form1.resources
+D:\WorkPlace\Csharp\Random\obj\Debug\Random.Properties.Resources.resources
+D:\WorkPlace\Csharp\Random\obj\Debug\Random.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\Random\obj\Debug\Randomn.Form1.resources

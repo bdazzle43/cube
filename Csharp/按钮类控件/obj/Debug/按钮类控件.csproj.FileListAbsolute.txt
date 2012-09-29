@@ -1,0 +1,9 @@
+D:\WorkPlace\Csharp\按钮类控件\bin\Debug\按钮类控件.exe
+D:\WorkPlace\Csharp\按钮类控件\bin\Debug\按钮类控件.pdb
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.Form1.resources
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.Properties.Resources.resources
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.exe
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.pdb
+D:\WorkPlace\Csharp\按钮类控件\obj\Debug\按钮类控件.TestDialog.resources

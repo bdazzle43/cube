@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\rnd\bin\Debug\rnd.exe
+D:\WorkPlace\Csharp\rnd\bin\Debug\rnd.pdb
+D:\WorkPlace\Csharp\rnd\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\rnd\obj\Debug\rnd.Form1.resources
+D:\WorkPlace\Csharp\rnd\obj\Debug\rnd.Properties.Resources.resources
+D:\WorkPlace\Csharp\rnd\obj\Debug\rnd.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\rnd\obj\Debug\rnd.exe
+D:\WorkPlace\Csharp\rnd\obj\Debug\rnd.pdb

@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\ListBox\bin\Debug\ListBox.exe
+D:\WorkPlace\Csharp\ListBox\bin\Debug\ListBox.pdb
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ListBox.Form1.resources
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ListBox.Properties.Resources.resources
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ListBox.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ListBox.exe
+D:\WorkPlace\Csharp\ListBox\obj\Debug\ListBox.pdb

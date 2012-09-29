@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\PictureBox\bin\Debug\PictureBox.exe
+D:\WorkPlace\Csharp\PictureBox\bin\Debug\PictureBox.pdb
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\PictureBox.Form1.resources
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\PictureBox.Properties.Resources.resources
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\PictureBox.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\PictureBox.exe
+D:\WorkPlace\Csharp\PictureBox\obj\Debug\PictureBox.pdb

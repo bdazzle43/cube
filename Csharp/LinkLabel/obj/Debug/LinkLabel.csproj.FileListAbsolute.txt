@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\LinkLabel\bin\Debug\LinkLabel.exe
+D:\WorkPlace\Csharp\LinkLabel\bin\Debug\LinkLabel.pdb
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\LinkLabel.Form1.resources
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\LinkLabel.Properties.Resources.resources
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\LinkLabel.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\LinkLabel.exe
+D:\WorkPlace\Csharp\LinkLabel\obj\Debug\LinkLabel.pdb

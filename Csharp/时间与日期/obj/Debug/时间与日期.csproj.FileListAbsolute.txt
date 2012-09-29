@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\时间与日期\bin\Debug\时间与日期.exe
+D:\WorkPlace\Csharp\时间与日期\bin\Debug\时间与日期.pdb
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\时间与日期.Form1.resources
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\时间与日期.Properties.Resources.resources
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\时间与日期.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\时间与日期.exe
+D:\WorkPlace\Csharp\时间与日期\obj\Debug\时间与日期.pdb

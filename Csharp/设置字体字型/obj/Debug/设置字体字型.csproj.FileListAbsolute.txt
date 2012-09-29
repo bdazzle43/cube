@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\设置字体字型.Form1.resources
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\设置字体字型.Properties.Resources.resources
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\设置字体字型.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\设置字体字型\bin\Debug\设置字体字型.exe
+D:\WorkPlace\Csharp\设置字体字型\bin\Debug\设置字体字型.pdb
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\设置字体字型.exe
+D:\WorkPlace\Csharp\设置字体字型\obj\Debug\设置字体字型.pdb

@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\票面分配程序\bin\Debug\票面分配程序.exe
+D:\WorkPlace\Csharp\票面分配程序\bin\Debug\票面分配程序.pdb
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\票面分配程序.Form1.resources
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\票面分配程序.Properties.Resources.resources
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\票面分配程序.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\票面分配程序.exe
+D:\WorkPlace\Csharp\票面分配程序\obj\Debug\票面分配程序.pdb

@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\EClock\bin\Debug\EClock.exe
+D:\WorkPlace\Csharp\EClock\bin\Debug\EClock.pdb
+D:\WorkPlace\Csharp\EClock\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\EClock\obj\Debug\EClock.Form1.resources
+D:\WorkPlace\Csharp\EClock\obj\Debug\EClock.Properties.Resources.resources
+D:\WorkPlace\Csharp\EClock\obj\Debug\EClock.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\EClock\obj\Debug\EClock.exe
+D:\WorkPlace\Csharp\EClock\obj\Debug\EClock.pdb

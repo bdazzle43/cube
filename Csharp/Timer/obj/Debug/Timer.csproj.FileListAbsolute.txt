@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\Timer\bin\Debug\Timer.exe
+D:\WorkPlace\Csharp\Timer\bin\Debug\Timer.pdb
+D:\WorkPlace\Csharp\Timer\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\Timer\obj\Debug\Timer.Form1.resources
+D:\WorkPlace\Csharp\Timer\obj\Debug\Timer.Properties.Resources.resources
+D:\WorkPlace\Csharp\Timer\obj\Debug\Timer.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\Timer\obj\Debug\Timer.exe
+D:\WorkPlace\Csharp\Timer\obj\Debug\Timer.pdb

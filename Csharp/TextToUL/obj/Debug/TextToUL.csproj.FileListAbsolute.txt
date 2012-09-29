@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\TextToUL\bin\Debug\TextToUL.exe
+D:\WorkPlace\Csharp\TextToUL\bin\Debug\TextToUL.pdb
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\TextToUL.Form1.resources
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\TextToUL.Properties.Resources.resources
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\TextToUL.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\TextToUL.exe
+D:\WorkPlace\Csharp\TextToUL\obj\Debug\TextToUL.pdb

@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\SimpleClass.Form1.resources
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\SimpleClass.Properties.Resources.resources
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\SimpleClass.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\SimpleClass\bin\Debug\SimpleClass.exe
+D:\WorkPlace\Csharp\SimpleClass\bin\Debug\SimpleClass.pdb
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\SimpleClass.exe
+D:\WorkPlace\Csharp\SimpleClass\obj\Debug\SimpleClass.pdb

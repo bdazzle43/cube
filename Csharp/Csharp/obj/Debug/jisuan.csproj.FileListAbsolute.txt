@@ -1,0 +1,8 @@
+D:\WorkPlace\Csharp\Csharp\bin\Debug\Csharp.exe
+D:\WorkPlace\Csharp\Csharp\bin\Debug\Csharp.pdb
+D:\WorkPlace\Csharp\Csharp\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPlace\Csharp\Csharp\obj\Debug\Csharp.Form1.resources
+D:\WorkPlace\Csharp\Csharp\obj\Debug\Csharp.Properties.Resources.resources
+D:\WorkPlace\Csharp\Csharp\obj\Debug\jisuan.csproj.GenerateResource.Cache
+D:\WorkPlace\Csharp\Csharp\obj\Debug\Csharp.exe
+D:\WorkPlace\Csharp\Csharp\obj\Debug\Csharp.pdb
