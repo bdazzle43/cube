@@ -1,0 +1,8 @@
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\ResolveAssemblyReference.cache
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\TabControlTest.Form1.resources
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\TabControlTest.Properties.Resources.resources
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\TabControlTest.csproj.GenerateResource.Cache
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\bin\Debug\TabControlTest.exe
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\bin\Debug\TabControlTest.pdb
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\TabControlTest.exe
+D:\BackUp\我的文档\Visual Studio 2008\Projects\TabControlTest\TabControlTest\obj\Debug\TabControlTest.pdb
