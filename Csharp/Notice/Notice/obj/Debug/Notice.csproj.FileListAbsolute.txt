@@ -1,0 +1,10 @@
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\bin\Debug\Notice.exe
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\bin\Debug\Notice.pdb
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\Notice.Form1.resources
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\Notice.Properties.Resources.resources
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\Notice.csproj.GenerateResource.Cache
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\Notice.exe
+C:\Users\Faye\Desktop\tmp0\Notice\Notice\obj\Debug\Notice.pdb
+L:\Faye\csharp001\Notice\Notice\obj\Debug\Notice.exe
+L:\Faye\csharp001\Notice\Notice\obj\Debug\Notice.pdb
