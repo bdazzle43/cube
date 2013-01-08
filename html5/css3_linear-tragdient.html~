@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 text-shadow 文字阴影</title>
+	<link rel="stylesheet" type="text/css" href="css/css3_linear-tradient.css" >
+</head>
+<body>
+<div id="gradient">
+	HTML5 CSS3 渐变
+</div>
+</body>
+</html>
+

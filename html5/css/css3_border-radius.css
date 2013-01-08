@@ -1,0 +1,28 @@
+#button {
+	background-image: -webkit-linear-gradient(top, #ECF2F6, #83BCF4);
+	background-image: -moz-linear-gradient(top, #ECF2F6, #83BCF4);
+	background-image: -o-linear-gradient(top, #ECF2F6, #83BCF4);
+	border: 1px #5F88B7 solid;
+	border-radius: 4px;
+	padding: 8px 18px;
+	font-size: 15px;
+}
+#circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #2ec8e9;
+}
+#circle2 {
+	width: 100px;
+	height: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: #2ec8e9;
+}
+#circle3 {
+	width: 0px;
+	border-left: 100px solid transparent;
+	border-top: 100px solid #2ec8e9;
+	border-top-left-radius: 100px;
+}
+	

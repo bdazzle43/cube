@@ -1,0 +1,7 @@
+#color {
+	border: 10px solid #000;
+	-moz-border-top-colors: #500 #700 #900 #b00;
+	-moz-border-left-colors: #500 #700 #900 #b00;
+	-moz-border-right-colors: #500 #700 #900 #b00;
+	padding: 5px 10px;
+}

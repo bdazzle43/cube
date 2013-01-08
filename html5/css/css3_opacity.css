@@ -1,0 +1,19 @@
+#gradient{
+	height: 29px;
+	width: 29px;
+	background: url(../images/button_normal.png), url(../images/fav_button.png) center center no-repeat;
+}
+#gradient span{
+	height: 100%;
+	width: 100%;
+	display: block;
+	background: url(../images/button_hover.png), url(../images/fav_button.png) center center no-repeat;
+	opacity: 0;
+}
+#gradient:hover span{
+	opacity: 1;
+	transition: all ease-in 0.2s; /* 在悬停时使用动画效果改变透明度 */
+	-webkit-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+}
