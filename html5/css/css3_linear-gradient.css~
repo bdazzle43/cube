@@ -1,7 +1,0 @@
-#gradient {
-	height: 200px;
-	width: 100px;
-	background: -webkit-linear-gradient(left, white, black); 
-	background: -o-linear-gradient(left 30deg, white, black); 
-	background: -moz-linear-gradient(left 30deg, white, black); 
-}
