@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 所有的 Action 定义都应该放在 package 下 -->
+	<package name="dawndiy" extends="struts-default">
+		<action name="login" class="com.dawndiy.action.LoginAction" method="execute">
+			<!-- 定义逻辑视图和物理资源直之间的映射 -->
+			<result name="in">/in.jsp</result>
+			<result name="out">/out.jsp</result>
+		</action>
+	</package>
+</struts>

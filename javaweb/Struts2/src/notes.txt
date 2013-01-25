@@ -1,0 +1,49 @@
+Struts 2 使用流程
+1.导入必要包
+	commons-fileupload-1.2.2.jar
+	commons-lang3-3.1.jar
+	commons-io-2.0.1.jar
+	freemarker-2.3.19.jar
+	javassist-3.11.0.GA.jar
+	ognl-3.0.6.jar
+	struts2-core-2.3.8.jar
+	xwork-core-2.3.8.jar
+	
+2.在 web.xml 中位置核心 Filter
+	<!-- 定义 Struts 2 的核心 Filter -->
+	<filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+    </filter>
+	<!-- 让 Struts 2 的核心 Filter 拦截所有请求 -->
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+3.定义处理用户请求的 Action 类
+	MVC 的 C ，控制器
+
+4.配置 Action ， 即 struts.xml
+	struts.xml 位置： ../src/struts.xml (项目中)   ../WEB-INF/classes/struts.xml (实际发布)
+	
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<!DOCTYPE struts PUBLIC
+		"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+		"http://struts.apache.org/dtds/struts-2.3.dtd">
+	<!-- 所有的 Action 定义都应该放在 package 下 -->
+	<struts>
+		<package name="dawndiy" extends="struts-default">
+			<action name="login" class="com.dawndiy.LoginAction" method="execute">
+			</action>
+		</package>
+	</struts>
+	
+5.配置处理结果和物理视图资源的对应关系
+	<action name="login" class="com.dawndiy.LoginAction" method="execute">
+		<!-- 定义逻辑视图和物理资源直之间的映射 -->
+		<result name="in">/in.jsp</result>
+		<result name="out">/out.jsp</result>
+	</action>
+	
+6.编写视图资源
