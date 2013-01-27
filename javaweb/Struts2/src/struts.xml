@@ -9,7 +9,11 @@
 		<action name="login" class="com.dawndiy.action.LoginAction" method="execute">
 			<!-- 定义逻辑视图和物理资源直之间的映射 -->
 			<result name="in">/in.jsp</result>
-			<result name="out">/out.jsp</result>
+		</action>
+		
+		<!-- 不指定类，默认为 ActionSpport。直接跳转。 -->
+		<action name="action">
+			<result>/login.jsp</result>
 		</action>
 	</package>
 </struts>
