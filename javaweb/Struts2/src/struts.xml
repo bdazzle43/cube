@@ -12,8 +12,12 @@
 		</action>
 		
 		<!-- 不指定类，默认为 ActionSpport。直接跳转。 -->
-		<action name="index">
+		<action name="loginpage">
 			<result>/WEB-INF/pages/login.jsp</result>
+		</action>
+		
+		<action name="index">
+			<result type="redirect">/index.html</result>
 		</action>
 	</package>
 </struts>
