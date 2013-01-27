@@ -16,8 +16,15 @@
 			<result>/WEB-INF/pages/login.jsp</result>
 		</action>
 		
+		<!-- 重定向示例 -->
 		<action name="index">
 			<result type="redirect">/index.html</result>
+		</action>
+		
+		<!-- Action 属性注入示例 -->
+		<action name="actionattribute" class="com.dawndiy.action.LoginAction">
+			<param name="username">DawnDIY</param>
+			<result name="in">/WEB-INF/pages/in.jsp</result>
 		</action>
 	</package>
 </struts>
