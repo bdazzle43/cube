@@ -4,6 +4,8 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+	<!-- 常量设置，设置 Action 后缀为 do -->
+	<constant name="struts.action.extension" value="do"/>
 	<!-- 所有的 Action 定义都应该放在 package 下 -->
 	<package name="dawndiy" extends="struts-default">
 		<action name="login" class="com.dawndiy.action.LoginAction" method="execute">
@@ -24,6 +26,11 @@
 		<!-- Action 属性注入示例 -->
 		<action name="actionattribute" class="com.dawndiy.action.LoginAction">
 			<param name="username">DawnDIY</param>
+			<result name="in">/WEB-INF/pages/in.jsp</result>
+		</action>
+		
+		<!-- Action 通配符 -->
+		<action name="loginmethod_*" class="com.dawndiy.action.LoginAction" method="{1}">
 			<result name="in">/WEB-INF/pages/in.jsp</result>
 		</action>
 	</package>

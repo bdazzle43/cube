@@ -25,8 +25,14 @@ public class LoginAction extends ActionSupport {
 		String time = tempDate.format(new Date());
 		
 		ActionContext.getContext().getSession().put("time", time);
-		ActionContext.getContext().getSession().put("user", getUsername());
+//		ActionContext.getContext().getSession().put("user", getUsername());	//可直接在页面上获取
 		
+		return "in";
+	}
+	
+	public String admin(){
+		System.out.println("use admin()");
+		username = "admin";
 		return "in";
 	}
 	
