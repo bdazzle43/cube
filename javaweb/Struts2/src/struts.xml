@@ -5,32 +5,42 @@
 
 <struts>
 	<!-- 常量设置，设置 Action 后缀为 do -->
-	<constant name="struts.action.extension" value="do"/>
+	<constant name="struts.action.extension" value="do" />
 	<!-- 所有的 Action 定义都应该放在 package 下 -->
 	<package name="dawndiy" extends="struts-default">
-		<action name="login" class="com.dawndiy.action.LoginAction" method="execute">
+		<action name="login" class="com.dawndiy.action.LoginAction"
+			method="execute">
 			<!-- 定义逻辑视图和物理资源直之间的映射 -->
 			<result name="in">/WEB-INF/pages/in.jsp</result>
 		</action>
-		
+
 		<!-- 不指定类，默认为 ActionSpport。直接跳转。 -->
 		<action name="loginpage">
 			<result>/WEB-INF/pages/login.jsp</result>
 		</action>
-		
+
 		<!-- 重定向示例 -->
 		<action name="index">
 			<result type="redirect">/index.html</result>
 		</action>
-		
+
 		<!-- Action 属性注入示例 -->
 		<action name="actionattribute" class="com.dawndiy.action.LoginAction">
 			<param name="username">DawnDIY</param>
 			<result name="in">/WEB-INF/pages/in.jsp</result>
 		</action>
-		
+
 		<!-- Action 通配符 -->
-		<action name="loginmethod_*" class="com.dawndiy.action.LoginAction" method="{1}">
+		<action name="loginmethod_*" class="com.dawndiy.action.LoginAction"
+			method="{1}">
+			<result name="in">/WEB-INF/pages/in.jsp</result>
+		</action>
+
+		<!-- 通过 GET/POST 传参示例 
+		 http://localhost:8080/Struts2/parameters.do?username=sdddd
+		-->
+		<action name="parameters" class="com.dawndiy.action.LoginAction"
+			method="getParameters">
 			<result name="in">/WEB-INF/pages/in.jsp</result>
 		</action>
 	</package>
