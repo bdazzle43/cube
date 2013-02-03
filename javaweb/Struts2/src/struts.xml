@@ -5,7 +5,7 @@
 
 <struts>
 	<!-- 常量设置，设置 Action 后缀为 do -->
-	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.action.extension" value="do,action" />
 	<!-- 所有的 Action 定义都应该放在 package 下 -->
 	<package name="dawndiy" extends="struts-default">
 		<action name="login" class="com.dawndiy.action.LoginAction"
@@ -42,6 +42,11 @@
 		<action name="parameters" class="com.dawndiy.action.LoginAction"
 			method="getParameters">
 			<result name="in">/WEB-INF/pages/in.jsp</result>
+		</action>
+		
+		<!-- 上传文件 Action -->
+		<action name="upload" class="com.dawndiy.action.UploadAction">
+			<result name="msg">/WEB-INF/pages/msg.jsp</result>
 		</action>
 	</package>
 </struts>
