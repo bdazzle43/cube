@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<META charset=utf-8>
+		<LINK href="css/audio_player.css" rel="stylesheet" type="text/css">
+		<title>Audio 播放器</title>
+	</head>
+<body>
+<!--audio src="./audios/login.ogg" controls="controls">你的浏览器不支持</audio-->
+<div>
+	<!--在页面里放置一个 audio 元素-->
+	<audio id="myMusic" >你的浏览器不支持</audio>
+	<!--放置一个隐藏域用于存储暂停时间点-->
+	<input id="PauseTime" type="hidden"/>
+
+	<div class="MusicBox">
+		<div class="LeftControl"></div>
+		<div id="MainControl" class="MainControl" ></div>
+		<div class="RightControl"></div>
+
+		<div class="ProcessControl">
+			<div class="SongName">DawnDIY's Music Box</div>
+			<div class="SongTime">00:00|00:00</div>
+			<div class="Process"></div>
+			<div class="ProcessYet"></div>
+		</div>
+		
+		<div class="VoiceEmp"></div>
+		<div class="VoidProcess"></div>
+		<div class="VoidProcessYet"></div>
+		<div class="VoiceFull"></div>
+		<div class="ShowMusicList"></div>
+
+	</div>
+
+	<div class="MusicList">
+		<div class="Author"></div>
+		<div class="List">
+			<div class="Single">
+				<SPAN class="SongName" KV="Fate">01.Fate</SPAN>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+</body>
+</html>
