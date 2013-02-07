@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META chartset=utf-8>
+	<TITLE>Digital Clock</TITLE>
+	<STYLE>
+		/* 钟表样式 */
+		#clock {						/* 定义 id="clock" 的元素样式 */
+			font: bold 24pt sans;		/* 使用粗体大号字 */
+			background: #ddf;			/* 定义蓝灰色背景 */
+			padding: 10px;				/* 周围一圈空白 */
+			border: solid black 2px;	/* 定义纯黑色边框 */
+			border-radius: 10px;		/* 定义圆角 */
+		}
+	</STYLE>
+	<SCRIPT>	// js 代码
+		function displayTime() {
+			var elt = document.getElementById("clock");	// 通过 id="clock" 找到元素
+			var now = new Date();						// 得到当前时间
+			elt.innerHTML = now.toLocaleTimeString();	// 让 elt 来显示它
+			setTimeout(displayTime, 1000);					// 在1妙后再次执行
+		}
+		window.onload = displayTime;	// 当 onload 事件发生时开始显示时间
+	</SCRIPT>
+</head>
+<body>
+	<H1>Digital Clock</H1>
+	<span id="clock"></span>
+</body>
+</html>
