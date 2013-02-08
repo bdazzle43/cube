@@ -1,0 +1,9 @@
+<glade-catalog name="about_quickly_demo_dialog" domain="glade-3" 
+               depends="gtk+" version="1.0">
+  <glade-widget-classes>
+    <glade-widget-class title="About Quickly Demo Dialog" name="AboutQuicklyDemoDialog" 
+                        generic-name="AboutQuicklyDemoDialog" parent="GtkAboutDialog"
+                        icon-name="widget-gtk-about-dialog"/>
+  </glade-widget-classes>
+
+</glade-catalog>

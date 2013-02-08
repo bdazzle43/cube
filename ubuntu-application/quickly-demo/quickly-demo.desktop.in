@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Quickly Demo
+_Comment=QuicklyDemo application
+Categories=GNOME;Utility;
+Exec=quickly-demo
+Icon=quickly-demo
+Terminal=false
+Type=Application
