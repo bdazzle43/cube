@@ -6,6 +6,20 @@
 <body>
 	<!-- Firefox 中会覆盖 -->
 	<a href="javascript:new Date().toLocaleTimeString();">显示时间，覆盖整个文档</a>
+	<br/>
 	<a href="javascript:alert(new Date().toLocaleTimeString());">显示时间，不覆盖整个文档</a>
+	<br/>
+	<a href="JavaScript:
+		var e = "", r = ""; /* 需要计算的表达式和结果 */
+		do{
+			/* 输出表达式和结果，并不要求输入新的表达式 */
+			e = prompt("Expression: " + e + "\n" + r + "\n", e);
+			try{r = "Result: " + eval(e);} /* 尝试计算这个表达式 */
+			catch(ex){r = ex;}
+		}while(e);	/* 直到没有输入表达式或者单击了Cancel按钮才会停止，否则一直循环执行 */
+		void 0;	/* 这句代码用以防止当前文档被覆盖 */
+		">
+	JavaScript Evaluator
+	</a>
 </body>
 </html>
