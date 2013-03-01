@@ -19,4 +19,5 @@ urlpatterns = patterns('',
 	url(r'^time2/$', 'helloworld.views.current_datetime_with_template'),
 	url(r'^time3/$', 'helloworld.views.current_datetime_with_tempfile'),
 	url(r'^time/plus/(\d{1,2})/$', 'helloworld.views.hours_ahead'),	
+	url(r'^time2/plus/(\d{1,2})/$', 'helloworld.views.hours_ahead_with_tempfile'),	
 )
