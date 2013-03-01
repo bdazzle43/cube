@@ -1,3 +1,4 @@
+from django.shortcuts import render_to_response
 from django.template.loader import get_template
 from django.template import Template, Context
 from django.http import HttpResponse, Http404
@@ -29,6 +30,7 @@ def current_datetime_with_template(request):
 
 def current_datetime_with_tempfile(request):
 	now = datetime.datetime.now()
-	t = get_template('time.html')
-	html = t.render(Context({'current_date': now}))
-	return HttpResponse(html)
+	#t = get_template('time.html')
+	#html = t.render(Context({'current_date': now}))
+	#return HttpResponse(html)
+	return render_to_response('time.html',{'current_date': now})
