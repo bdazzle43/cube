@@ -33,4 +33,4 @@ def current_datetime_with_tempfile(request):
 	#t = get_template('time.html')
 	#html = t.render(Context({'current_date': now}))
 	#return HttpResponse(html)
-	return render_to_response('time.html',{'current_date': now})
+	return render_to_response('current_datetime.html',{'current_date': now})
