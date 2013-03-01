@@ -16,5 +16,7 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
 	url(r'^hello/$', 'helloworld.views.hello'),
 	url(r'^time/$', 'helloworld.views.current_datetime'),
+	url(r'^time2/$', 'helloworld.views.current_datetime_with_template'),
+	url(r'^time3/$', 'helloworld.views.current_datetime_with_tempfile'),
 	url(r'^time/plus/(\d{1,2})/$', 'helloworld.views.hours_ahead'),	
 )
