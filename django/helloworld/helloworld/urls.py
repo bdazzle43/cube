@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from books import views
+
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -21,8 +21,9 @@ urlpatterns = patterns('',
 	url(r'^time3/$', 'helloworld.views.current_datetime_with_tempfile'),
 	url(r'^time/plus/(\d{1,2})/$', 'helloworld.views.hours_ahead'),	
 	url(r'^time2/plus/(\d{1,2})/$', 'helloworld.views.hours_ahead_with_tempfile'),	
-    url(r'^search-form/$', views.search_form),
-    url(r'^search/$', views.search),
+    url(r'^search-form/$', 'books.views.search_form'),
+    url(r'^search/$', 'books.views.search'),
+    url(r'^contact/$', 'contact.views.contact'),
     
 
 )

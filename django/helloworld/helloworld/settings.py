@@ -106,6 +106,7 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 TEMPLATE_DIRS = (
 	"/home/dawndiy/workspace/cube/django/helloworld/templates/helloworld",
 	"/home/dawndiy/workspace/cube/django/helloworld/templates/books",
+	"/home/dawndiy/workspace/cube/django/helloworld/templates/contact",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
