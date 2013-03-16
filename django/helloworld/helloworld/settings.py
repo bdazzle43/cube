@@ -9,6 +9,9 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+import os
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -104,9 +107,13 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 
 
 TEMPLATE_DIRS = (
-	"/home/dawndiy/workspace/cube/django/helloworld/templates/helloworld",
-	"/home/dawndiy/workspace/cube/django/helloworld/templates/books",
-	"/home/dawndiy/workspace/cube/django/helloworld/templates/contact",
+	#"/home/dawndiy/workspace/cube/django/helloworld/templates/helloworld",
+	#"/home/dawndiy/workspace/cube/django/helloworld/templates/books",
+	#"/home/dawndiy/workspace/cube/django/helloworld/templates/contact",
+    os.path.join(PROJECT_PATH, 'templates').replace('\\', '/'),
+    os.path.join(PROJECT_PATH, 'templates/books').replace('\\', '/'),
+    os.path.join(PROJECT_PATH, 'templates/helloworld').replace('\\', '/'),
+    os.path.join(PROJECT_PATH, 'templates/contact').replace('\\', '/'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
