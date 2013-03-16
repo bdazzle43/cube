@@ -10,7 +10,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 import os
-PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__) + '/..')
 
 DATABASES = {
     'default': {
