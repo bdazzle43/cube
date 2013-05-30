@@ -19,6 +19,7 @@ channel.queue_declare(queue='hello')
 channel.basic_publish(exchange='',
                       routing_key='hello',
                       body='Hello World!')
+
 print " [x] Send 'Hello World!'"
 
 # 关闭链接
