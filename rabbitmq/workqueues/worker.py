@@ -14,7 +14,8 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost')
 channel = connection.channel()
 
 # 声明队列,测试位置是否可达
-channel.queue_declare(queue='task_queue', durable=True)
+channel.queue_declare(queue='task_queue',   # 队列名
+                      durable=True)         # 持久化
 
 print ' [*] Waiting for messages. To exit press CTRL+C'
 

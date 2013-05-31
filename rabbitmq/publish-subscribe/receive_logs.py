@@ -12,6 +12,7 @@ import pika
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 
+# 创建一个交换器，类型为 fanout
 channel.exchange_declare(exchange='logs',
                          type='fanout')
 
@@ -21,8 +22,8 @@ result = channel.queue_declare(exclusive=True)
 queue_name = result.method.queue
 
 # 绑定交换器和队列
-channel.queue_bind(exchange='logs',
-                   queue=queue_name)
+channel.queue_bind(exchange='logs',     # 交换器名
+                   queue=queue_name)    # 队列名
 
 print ' [*] Waiting for logs. To exit press CTRL+C'
 

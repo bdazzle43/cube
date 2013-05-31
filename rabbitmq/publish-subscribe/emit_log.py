@@ -14,8 +14,8 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost')
 channel = connection.channel()
 
 # 创建一个交换器，类型为 fanout
-channel.exchange_declare(exchange='logs',
-                         type='fanout')
+channel.exchange_declare(exchange='logs',   # 交换器名
+                         type='fanout')     # 广播给所有队列 
 
 message = ' '.join(sys.argv[1:]) or 'info: Hello World!'
 

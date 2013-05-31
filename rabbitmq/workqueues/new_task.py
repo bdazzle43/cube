@@ -14,8 +14,8 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost')
 channel = connection.channel()
 
 # 声明队列,测试位置是否可达
-# durable 消息持久化
-channel.queue_declare(queue='task_queue', durable=True)
+channel.queue_declare(queue='task_queue',   # 队列名
+                      durable=True)         # 持久化
 
 message = ' '.join(sys.argv[1:]) or "Hello World!"
 channel.basic_publish(exchange='',
