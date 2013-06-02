@@ -1,0 +1,5 @@
+name: vector_victor
+description: A sample web application
+dependencies:
+  browser: any
+  vector_math: any
