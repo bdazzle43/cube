@@ -15,5 +15,14 @@ Todos.TodosController = Ember.ArrayController.extend({
 
         // 保存新 todo
         todo.save();
-    }
+    },
+    
+    remaining: function () {
+        return this.filterProperty('isCompleted', false).get('length');
+    }.property('@each.isCompleted'),
+
+    iflection: function () {
+        var remaining = this.get('remaining');
+        return remaining === 1 ? 'item' : 'items';
+    }.property('remaining')
 });
