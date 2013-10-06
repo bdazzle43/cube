@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head></head>
+    <body>
+        <video id="video" autoplay=""></video>
+        <script>
+            var video_element = document.getElementById('video');
+            if (navigator.getUserMedia) {
+                navigator.getUserMedia('video', success, error);
+            }
+            function success(stream) {
+                video_element.src = stream;
+            }
+        </script>
+    </body>
+</html>
